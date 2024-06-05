@@ -90,3 +90,6 @@ db.sqlite3
 
 ### Virtual Environment ###
 .venv/
+
+### Something from PyCharm ###
+.idea/
