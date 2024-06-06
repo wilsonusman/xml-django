@@ -78,6 +78,8 @@ WSGI_APPLICATION = 'xml_django_project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
+
 if DEVELOPMENT_MODE is True:
     DATABASES = {
         "default": {
@@ -136,4 +138,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
