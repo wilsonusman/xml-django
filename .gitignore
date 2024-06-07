@@ -89,7 +89,12 @@ local_settings.py
 #db.sqlite3
 
 ### Virtual Environment ###
-.venv/
+
+.venv
+.env
+__pychache__/
+db.sqlite3
+.DS_Store
 
 ### Something from PyCharm ###
 .idea/
