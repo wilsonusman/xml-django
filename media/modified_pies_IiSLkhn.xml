@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PIES>
+ <Header>
+  <PIESVersion>7.2</PIESVersion>
+  <SubmissionType>FULL</SubmissionType>
+  <ParentAAIAID>BNKK</ParentAAIAID>
+  <TechnicalContact>Michael Aliffi</TechnicalContact>
+  <ContactEmail>michael.aliffi@aam.com</ContactEmail>
+  <PCdbVersionDate>2024-05-02</PCdbVersionDate>
+  <PAdbVersionDate>2024-05-02</PAdbVersionDate>
+ </Header>
+ <Items>
+  <Item MaintenanceType="A">
+   <HazardousMaterialCode>N</HazardousMaterialCode>
+   <ItemLevelGTIN GTINQualifier="UP">00840382506963</ItemLevelGTIN>
+   <PartNumber>40258705</PartNumber>
+   <BrandAAIAID>BNKM</BrandAAIAID>
+   <BrandLabel>American Axle &amp; Manufacturing</BrandLabel>
+   <ACESApplications>Y</ACESApplications>
+   <PartTerminologyID>16658</PartTerminologyID>
+   <Descriptions>
+    <Description LanguageCode="EN" MaintenanceType="A" DescriptionCode="DES" Sequence="1">Inner Tie Rod End</Description>
+   </Descriptions>
+   <PartInterchangeInfo>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="CLJB" BrandLabel="General Motors" QualityGradeLevel="O">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">12479168</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="CLJB" BrandLabel="General Motors" QualityGradeLevel="O">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">19149613</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="CLJB" BrandLabel="General Motors" QualityGradeLevel="O">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">19257595</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BNKM" BrandLabel="American Axle &amp; Manufacturing" QualityGradeLevel="O">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">40099899</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BCVC" BrandLabel="ACDelco" QualityGradeLevel="O">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">45A2153</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="CLJB" BrandLabel="General Motors" QualityGradeLevel="O">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">86511720</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BMBS" BrandLabel="Advance Auto Parts" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="1.0">DW-ES80277</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="GFDG" BrandLabel="NAPA Chassis Parts" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">ES80277</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BCCH" BrandLabel="MOOG Chassis Products" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">ES80277</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BKRP" BrandLabel="AutoZone" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">GES80277</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BDCJ" BrandLabel="TRW Chassis" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">JTE1296</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BFLT" BrandLabel="Mevotech" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">MES80277</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="BBMX" BrandLabel="Delphi" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="2.0" UOM="EA">TA5407</PartNumber>
+    </PartInterchange>
+    <PartInterchange MaintenanceType="A" LanguageCode="EN" BrandAAIAID="DWRT" BrandLabel="Dorman" QualityGradeLevel="S">
+     <PartNumber InterchangeQuantity="2.0">TI92070RD</PartNumber>
+    </PartInterchange>
+   </PartInterchangeInfo>
+  </Item>
+ </Items>
+ <Trailer>
+  <ItemCount>1</ItemCount>
+  <TransactionDate>2024-05-15</TransactionDate>
+ </Trailer>
+</PIES>
