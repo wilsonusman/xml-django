@@ -1,0 +1,22 @@
+{% block content %}
+<h1>Files</h1>
+
+<a href="{% url 'upload_file' %}">Upload file</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Download</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for file in files %}
+            <tr>
+                <td>{{ file.title }}</td>
+                <td><a href="{{ file.xml.url }}" class="btn">Download XML</a></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

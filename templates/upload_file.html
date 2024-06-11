@@ -1,0 +1,9 @@
+{% block content %}
+{% load crispy_forms_tags %}
+    <h1>File Upload Test</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="">Upload file</button>
+    </form>
+{% endblock%}
