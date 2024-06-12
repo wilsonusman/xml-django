@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView, ListView, CreateView
 from django.core.files.storage import FileSystemStorage
+from django.urls import reverse_lazy
 
 from .forms import FileForm
 from .models import File
@@ -21,8 +22,8 @@ class FileListView(ListView):
 
 class UploadFileView(CreateView):
     model = File
-    fields = ('title', 'xml')
-    success_url = 'file_list'
+    form_class = FileForm
+    success_url = reverse_lazy('file_list')
     template_name = 'upload_file.html'
 
 
